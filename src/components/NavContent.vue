@@ -23,22 +23,22 @@
                         </div>
                         <ul id="main-menu" class="sm sm-blue">
                             <li class="menu-item">
-                                <router-link to="/" @click.native="flushCom" active-class="active" exact>
+                                <router-link :to="{name:'Content'}" @click.native="flushCom" active-class="active" exact>
                                     Home page
                                 </router-link>
                             </li>
                             <li class="menu-item">
-                                <router-link to="/CaseStudies" @click.native="flushCom" active-class="active">
+                                <router-link :to="{name:'CaseStudies'}" @click.native="flushCom" active-class="active">
                                     Case Studies
                                 </router-link>
                             </li>
                             <li class="menu-item">
-                                <router-link to="/Blogs" @click.native="flushCom" active-class="active">
+                                <router-link :to="{name:'Blogs'}" @click.native="flushCom" active-class="active">
                                     Blogs
                                 </router-link>
                             </li>
                             <li class="menu-item">
-                                <router-link to="/aboutus" @click.native="flushCom" active-class="active">
+                                <router-link :to="{name:'Aboutus'}" @click.native="flushCom" active-class="active">
                                     About Us
                                 </router-link>
                             </li>
@@ -75,9 +75,9 @@
 export default {
     name:"NavContent",
     methods: {
-            flushCom(){
-                this.$router.go(0);
-            }
+        flushCom(){
+            this.$router.go(0);
+        }
     }
 }
 </script>

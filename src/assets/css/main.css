@@ -123,6 +123,10 @@ input {
   border: none !important;
 }
 
+.goog-te-gadget-simple span:nth-of-type(2) {
+  display: none !important;
+}
+
 .main-header {
   border-bottom: 2px solid #f2c784;
 }
