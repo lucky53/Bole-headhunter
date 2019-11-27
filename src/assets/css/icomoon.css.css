@@ -1,0 +1,190 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url("../fonts/icomoon.eot-ng0cpk"/*tpa=https://linksinternational.com/wp-content/themes/links/fonts/icomoon.eot?ng0cpk*/);
+  src:  url("../fonts/icomoon.eot-ng0cpk#iefix"/*tpa=https://linksinternational.com/wp-content/themes/links/fonts/icomoon.eot?ng0cpk#iefix*/) format('embedded-opentype'),
+    url("../fonts/icomoon.ttf-ng0cpk"/*tpa=https://linksinternational.com/wp-content/themes/links/fonts/icomoon.ttf?ng0cpk*/) format('truetype'),
+    url("../fonts/icomoon.woff-ng0cpk"/*tpa=https://linksinternational.com/wp-content/themes/links/fonts/icomoon.woff?ng0cpk*/) format('woff'),
+    url("../fonts/icomoon.svg-ng0cpk#icomoon"/*tpa=https://linksinternational.com/wp-content/themes/links/fonts/icomoon.svg?ng0cpk#icomoon*/) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-dependent:before {
+  content: "\e92d";
+}
+.icon-globe2:before {
+  content: "\e923";
+}
+.icon-chat-2:before {
+  content: "\e924";
+}
+.icon-chat-bots:before {
+  content: "\e925";
+}
+.icon-check-2:before {
+  content: "\e926";
+}
+.icon-clock-refresh:before {
+  content: "\e927";
+}
+.icon-download:before {
+  content: "\e928";
+}
+.icon-language:before {
+  content: "\e929";
+}
+.icon-like:before {
+  content: "\e92a";
+}
+.icon-power:before {
+  content: "\e92b";
+}
+.icon-user:before {
+  content: "\e92c";
+}
+.icon-arrow-left:before {
+  content: "\e900";
+}
+.icon-arrow-right:before {
+  content: "\e901";
+}
+.icon-l_accordian_black_close:before {
+  content: "\e902";
+}
+.icon-l_accordian_black_open:before {
+  content: "\e903";
+}
+.icon-l_counter_icon_01:before {
+  content: "\e904";
+  
+}
+.icon-l_counter_icon_02:before {
+  content: "\e905";
+  
+}
+.icon-l_counter_icon_03:before {
+  content: "\e906";
+  
+}
+.icon-l_counter_icon_04:before {
+  content: "\e907";
+  
+}
+.icon-l_hr_analytics_01:before {
+  content: "\e908";
+ 
+}
+.icon-l_hr_analytics_02:before {
+  content: "\e909";
+ 
+}
+.icon-l_hr_analytics_03:before {
+  content: "\e90a";
+ 
+}
+.icon-l_HR_Outsourcing_icon_01:before {
+  content: "\e90b";
+ 
+}
+.icon-l_HR_Outsourcing_icon_02:before {
+  content: "\e90c";
+ 
+}
+.icon-l_HR_Outsourcing_icon_03:before {
+  content: "\e90d";
+ 
+}
+.icon-l_icon_contact:before {
+  content: "\e90e";
+ 
+}
+.icon-l_logo_white:before {
+  content: "\e90f";
+ 
+}
+.icon-l_payroll_processing_01:before {
+  content: "\e910";
+ 
+}
+.icon-l_payroll_processing_02:before {
+  content: "\e911";
+ 
+}
+.icon-l_payroll_processing_03:before {
+  content: "\e912";
+   
+}
+.icon-l_Recruitment_icon_01:before {
+  content: "\e913";
+ 
+}
+.icon-l_Recruitment_icon_02:before {
+  content: "\e914";
+   
+}
+.icon-l_Recruitment_icon_03:before {
+  content: "\e915";
+  
+}
+.icon-l_region_support:before {
+  content: "\e916";
+ 
+}
+.icon-l_service_journey_01:before {
+  content: "\e917";
+  
+}
+.icon-l_service_journey_02:before {
+  content: "\e918";
+ 
+}
+.icon-l_service_journey_03:before {
+  content: "\e919";
+  
+}
+.icon-l_service_journey_04:before {
+  content: "\e91a";
+  
+}
+.icon-l_tab_icon_01_black:before {
+  content: "\e91b";
+}
+.icon-l_tab_icon_01_white:before {
+  content: "\e91c";
+  
+}
+.icon-l_tab_icon_02_black:before {
+  content: "\e91d";
+}
+.icon-l_tab_icon_02_white:before {
+  content: "\e91e";
+  
+}
+.icon-l_tab_icon_03_black:before {
+  content: "\e91f";
+}
+.icon-l_tab_icon_03_white:before {
+  content: "\e920";
+  
+}
+.icon-l_tab_icon_04_black:before {
+  content: "\e921";
+}
+.icon-l_tab_icon_04_white:before {
+  content: "\e922";
+  
+}
