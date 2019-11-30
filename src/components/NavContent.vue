@@ -12,7 +12,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="/">
-                            <img src="../assets/images/logo.png" width="278px" height="75" alt="Links International">
+                            <img src="../assets/images/logo.png" width="300" alt="Links International">
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -23,22 +23,22 @@
                         </div>
                         <ul id="main-menu" class="sm sm-blue">
                             <li class="menu-item">
-                                <router-link :to="{name:'Content'}" @click.native="flushCom" active-class="active" exact>
+                                <router-link :to="{path:'/'}" @click.native="flushCom" active-class="active" exact>
                                     Home page
                                 </router-link>
                             </li>
                             <li class="menu-item">
-                                <router-link :to="{name:'CaseStudies'}" @click.native="flushCom" active-class="active">
+                                <router-link :to="{path:'/CaseStudies'}" @click.native="flushCom" active-class="active">
                                     Case Studies
                                 </router-link>
                             </li>
-                            <li class="menu-item">
-                                <router-link :to="{name:'Blogs'}" @click.native="flushCom" active-class="active">
-                                    Blogs
+                            <!-- <li class="menu-item">
+                                <router-link :to="{path:'/Blogs'}" @click.native="flushCom" active-class="active">
+                                    Jobs
                                 </router-link>
-                            </li>
+                            </li> -->
                             <li class="menu-item">
-                                <router-link :to="{name:'Aboutus'}" @click.native="flushCom" active-class="active">
+                                <router-link :to="{path:'/Aboutus'}" @click.native="flushCom" active-class="active">
                                     About Us
                                 </router-link>
                             </li>
@@ -52,8 +52,8 @@
         </header>
         <div class="right-message-div">
 			<div class="inner-div">
-				<div class="dropdown wechat">
-					<a class="dropdown-btn" href="https://web.wechat.com/" target="_blank">
+				<div class="dropdown wechat" @click="showToggle" @mouseover="wechatmouseOver" @mouseleave="wechatmouseLeave">
+					<a class="dropdown-btn" href="javascript:;">
 						<i class="fa"></i>
 					</a>
 				</div>
@@ -67,6 +67,9 @@
 						<i class="fa"></i>
 					</a>
 				</div>
+                <div class="wechat-img" style="display:none;" v-show="chatShow">
+                    <!-- <img src="../assets/images/wechat-img.png"> -->
+                </div>
 			</div>
 		</div>
     </div>
@@ -74,10 +77,33 @@
 <script>
 export default {
     name:"NavContent",
+    data() {
+        return {
+             chatShow: false,
+        }
+    },
     methods: {
         flushCom(){
             this.$router.go(0);
+        },
+        // 移入
+        wechatmouseOver() {
+            $('.wechat-img').show();
+        },
+        // 移出
+        wechatmouseLeave() {
+            $('.wechat-img').hide();
+        },
+        showToggle(){
+            this.chatShow = !this.chatShow;
         }
     }
 }
 </script>
+<style lang="css">
+.wechat-img{
+    position: absolute;
+    left: -140px;
+    bottom: 53px;
+}
+</style>

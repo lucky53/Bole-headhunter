@@ -108,7 +108,7 @@ h4 {
 
 .navbar-brand {
   height: auto;
-  padding: 5px;
+  padding: 13px 5px;
 }
 
 .main-header .navbar {
@@ -4302,8 +4302,8 @@ body.hr-analytics .detail-div p {
     padding: 15px 0;
   }
   .navbar-brand {
-    max-width: 150px;
-    padding: 10px 5px;
+    max-width: 178px;
+    padding: 11px 5px;
   }
   .main-header .navbar-nav > li > a {
     padding: 6px 10px;
@@ -5338,6 +5338,11 @@ body.hr-analytics .detail-div p {
   .about-contact-us-section .max-width1250 .abous-title {
     max-width: 88vw !important;
   }
+  .wechat-img{
+      position: absolute;
+      left: -5px !important;
+      bottom: inherit !important;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -5470,19 +5475,6 @@ input {
 .goog-te-banner-frame, #google_translate_element img {
   display: none;
 }
-
-.goog-te-gadget-simple {
-  padding: 3px 22px !important;
-  border: 1px solid #fad18a !important;
-  background: transparent !important;
-  border-radius: 16px;
-}
-
-.goog-te-gadget-simple span {
-  color: #fff;
-  border: none !important;
-}
-
 .main-header {
   border-bottom: 2px solid #f2c784;
 }

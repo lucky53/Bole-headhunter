@@ -111,18 +111,6 @@ input {
   display: none;
 }
 
-.goog-te-gadget-simple {
-  padding: 3px 10px !important;
-  border: 1px solid #fad18a !important;
-  background: transparent !important;
-  border-radius: 16px;
-}
-
-.goog-te-gadget-simple span {
-  color: #fff;
-  border: none !important;
-}
-
 .goog-te-gadget-simple span:nth-of-type(2) {
   display: none !important;
 }

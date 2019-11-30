@@ -12,7 +12,7 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/Content',
+      path: '/',
       name: 'Content',
       component: Content
     },
