@@ -1,21 +1,30 @@
 <template>
   <div>
     <NavContent></NavContent>
-    <section class="innner-page-banner-section recruit-section top container-fluid">
+    <!-- <section class="innner-page-banner-section recruit-section top container-fluid">
       <div class="container z-imdex5">
         <div class="content-div text-center row-fluid-wrapper">
-          <h1 class="short-description">LINKS CLIENT STORIES</h1>
+          <h1 class="short-description">About Us</h1>
+        </div>
+      </div>
+    </section> -->
+    <section class="innner-page-banner-section recruit-section container-fluid top">
+      <div class="container z-imdex5">
+        <div class="content-div text-center">
+          <h1 class="short-description">Contact Us</h1>
+          <div class="detail-div short-description">
+            <h3>Get in touch with one of us today to start streamlining you HR processes across Asia</h3>
+          </div>
         </div>
       </div>
     </section>
     <section class="content-wrapper-banner">
       <div class="container">
           <div class="page-title text-center">
-            <h1>Empowering HR teams in Asia</h1>
-            <p>Optimus Bole helps HR teams across Asia to realize their potential and transform their HR functions by streamlining traditional HR processes and providing market-leading HR outsourcing solutions. Learn about our clients' experience in Qualcomm and how to overcome their HR challenges with Qualcomm's award-winning HR Outsourcing.</p>
-            <p>From 2015 to 2018, Youcai Bole was named the Best HR Outsourcing Partner of the Year in Hong Kong and Singapore for the fourth consecutive year.</p>
+            <h1>Being the best HR teams in Asia</h1>
+            <p>Pak Lok Elite Headhunting Consultant Limited helps HR teams across Asia to realize their potential and transform their HR functions by streamlining traditional HR processes and providing market-leading HR outsourcing solutions.Learn about our clients' experience in communication and how to overcome their HR challenges.</p>
           </div>
-          <div class="swiper-container Cascading-banner">
+          <!-- <div class="swiper-container Cascading-banner">
               <div class="swiper-wrapper">
                 <div class="swiper-slide Cascading-text">
                   <div class="text-content">
@@ -57,12 +66,12 @@
                   </div>
                 </div>
               </div>
-          </div>
+          </div> -->
           <div class="workplace">
             <div class="left-images"></div>
             <div class="right-textbg">
-              <h2 class="text-center">Youcai Bole</h2>
-              <p class="">Youcai Bole International is a leading recruitment and Asian payroll outsourcing service provider and supports 15 countries in the Asia Pacific region. If you would like to develop a team in Asia or are interested in exploring the idea of ​​payroll outsourcing, please feel free to contact us.</p>
+              <h2 class="text-center">Pak Lok Elite Headhunting Consultant Limited</h2>
+              <p class="">Pak Lok Elite Headhunting Consultant Limited is a leading recruitment. We also provide payroll outsourcing service and supports 15 countries in the Asia Pacific region. If you would like to develop a team in Asia or are interested in exploring the idea of payroll outsourcing and recruitment, please feel free to contact us.</p>
             </div>
           </div>
       </div>
@@ -78,19 +87,19 @@
                   <input type="text" v-model="formMess.name">
                 </div>
                 <div class="form-list">
-                  <p>Awkward mailbox </p>
+                  <p>Email</p>
                   <input type="text" v-model="formMess.email">
                 </div>
-                <div class="form-list">
+                <div class="form-list" style="width:100%;margin-right:0;">
                   <p>country</p>
                   <input type="text" v-model="formMess.country">
                 </div>
-                <div class="form-list">
+                <!-- <div class="form-list">
                   <p>Query type</p>
                   <input type="text" v-model="formMess.queerytype">
-                </div>
+                </div> -->
                 <div class="form-list problems">
-                  <p>other problems</p>
+                  <p>Suggestions</p>
                   <textarea v-model="formMess.problems"></textarea>
                 </div>
                 <div class="Submission">

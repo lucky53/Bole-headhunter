@@ -18,7 +18,7 @@
 														<a href="/aboutus">About Us</a></li>
 													<li id="menu-item-1939"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1939">
-														<a href="javasceipt:;">WorkWith Us</a>
+														<a href="javasceipt:;">Join Us</a>
 													</li>
 												</ul>
 											</div>
@@ -43,26 +43,26 @@
 														<a href="javasceipt:;">Visa Application</a></li>
 													<li id="menu-item-75"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75">
-														<a href="javasceipt:;">Employer Branding</a></li>
+														<a href="javasceipt:;">Branding</a></li>
 													<li id="menu-item-78"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78">
-														<a href="javasceipt:;">Recruiter On Demand</a></li>
+														<a href="javasceipt:;">Recruitment</a></li>
 												</ul>
 											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="menu-footer-menu-3-container">
 												<ul id="menu-footer-menu-3" class="menu">
-													<li id="menu-item-82"
+													<!-- <li id="menu-item-82"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82">
 														<a href="https://linksinternational.com/hr-technology/hr-analytics/">HR
-															Analytics</a></li>
-													<li id="menu-item-2079"
+															Analytics</a></li> -->
+													<!-- <li id="menu-item-2079"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2079">
-														<a href="javasceipt:;">HRO Outplacement</a></li>
+														<a href="javasceipt:;">HRO Outplacement</a></li> -->
 													<li id="menu-item-80"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80">
-														<a href="javasceipt:;">Secondment PEO/EOR</a></li>
+														<a href="javasceipt:;">Secondment/BPO</a></li>
 												</ul>
 											</div>
 										</div>
@@ -78,7 +78,7 @@
 												<ul id="menu-footer-menu-4" class="menu">
 													<li id="menu-item-1998"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1998">
-														<a target="_blank" rel="noopener noreferrer" href="/Blogs">Blogs</a>
+														<a target="_blank" rel="noopener noreferrer" href="javasceipt:;">Jlogs</a>
 													</li>
 													<li id="menu-item-2950"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1998">

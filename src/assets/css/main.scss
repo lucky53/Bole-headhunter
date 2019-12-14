@@ -224,19 +224,21 @@ input {
     }
 }
 .our-team-section{
+    background: url(/static/img/content-from.42393fc.jpg) no-repeat bottom;
+    background-size: cover;
     .paddingLR90{
         .team-block{
             .img-div1{
-                background-image: url(../images/uploads/Consultants_3168.jpg);
+                background-image: url(../images/uploads/Consultants_3168.png);
             }
             .img-div2{
-                background-image: url(../images/uploads/Consultants_10455.jpg);
+                background-image: url(../images/uploads/Consultants_10455.png);
             }
             .img-div3{
-                background-image: url(../images/uploads/Consultants_4017.jpg);
+                background-image: url(../images/uploads/Consultants_4017.png);
             }
             .img-div4{
-                background-image: url(../images/uploads/Consultants_3948.jpg);
+                background-image: url(../images/uploads/Consultants_3948.png);
             }
         }
     }
@@ -322,6 +324,13 @@ input {
     }
 }
 .about-contact-us-section{
+    color: #000;
+    background: url(/static/img/content-from.42393fc.jpg) no-repeat center top;
+    background-size: cover;
+    .medieed-video{
+        margin: 2rem 0;
+        box-shadow: 0px 0px 15px #5d5d5d;
+    }
     .max-width1250{
         text-align: center;
         .abous-title{
@@ -436,7 +445,7 @@ input {
         background: url(#{$url}/TheSwissTown.jpg) no-repeat center;
         background-size: cover;
         h2{
-            margin: 4rem 0;
+            margin: 2rem 0;
             color: #ffd68e;
         }
         p{

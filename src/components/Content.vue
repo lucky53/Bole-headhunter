@@ -38,7 +38,7 @@
 				</svg>
 			</div>
 		</section>
-		<section class="client-logos-section">
+		<!-- <section class="client-logos-section">
 			<div class="container">
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
@@ -85,14 +85,14 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<section class="hr-outsourcing-section Outsourcing">
 			<div class="container">
 				<div class="section-head text-center">
 					<p></p>
-					<h2><label class="" style="color: #a87743;">100%</label> In-Country HR Outsourcing</h2>
+					<h2><label class="" style="color: #a87743;">100%</label> In- Country HR Services</h2>
 					<h4><strong class="btn_block">“Taking care of your Payroll, Visa, PEO/EOR and HR needs.”</strong></h4>
-					<p>Youcai Bole is Hong Kong's leading human resources outsourcing company. In 2015, 2016, 2017 and 2018, it won the Best Salary Expansion Partner of the “Hong Kong and Singapore Human Resources Supplier of the Year Award”. Bole is an Asia-Pacific HR outsourcing expert who provides 100% domestic services and offers a wide range of award-winning services, including secondment/PEO coverage, salary extensions, visa application services and HR analysis.</p>
+					<p>Pak Lok Elite Headhunting Consultant Limited is Hong Kong's leading human resources outsourcing company. Pak Lok Elite is an Asia-Pacific HR outsourcing expert who provides 100% domestic services and offers a wide range of award-winning services, including secondment/RPO coverage, salary extensions, visa application services and HR analysis.</p>
 					<p></p>
 				</div>
 				<div class="swiper-slider-col3 swiper-slider-other  box-block-with-down-arrow">
@@ -106,7 +106,7 @@
 												<img src="../assets/images/uploads/l_HR_Outsourcing_icon_01.png">
 											</div>
 											<div class="detail-div">
-												<h4>Secondment / PEO Outsourcing</h4>
+												<h4>Secondment/ BPO Outsourcing</h4>
 												<p></p>
 												<p>Cost-effective and flexible solution allowing you to easily hire
 													during headcount freezes and overseas expansion.</p>
@@ -160,10 +160,9 @@
 												<img src="../assets/images/uploads/HR-Analytics-Blue-1.png">
 											</div>
 											<div class="detail-div">
-												<h4>HR Outplacement</h4>
+												<h4>Recruitment</h4>
 												<p></p>
-												<p>Take care of your employees even after they leave. Connecting people
-													to future opportunities and putting people into jobs.</p>
+												<p>Provide talent to our client, help you to reduce time to source candidates.</p>
 												<p></p>
 											</div>
 										</div>
@@ -184,9 +183,9 @@
 				</div>
 			</div>
 		</section>
-		<section class="hr-outsourcing-section   paddingB100">
+		<section class="hr-outsourcing-section paddingB100 paddingT100">
 			<div class="container">
-				<div class="section-head text-center">
+				<!-- <div class="section-head text-center">
 					<h2>Award-winning Recruitment Agency</h2>
 					<p></p>
 					<p><strong class="btn_white">“Finding the best staff in Asia”</strong></p>
@@ -195,7 +194,7 @@
 							of recruiting experience</strong> in Hong Kong and the wider Asia-Pacific region, we understand the
 						importance of matching the right talent with your business needs to achieve company success.</p>
 					<p></p>
-				</div>
+				</div> -->
 				<div class="swiper-slider-col3 swiper-col3-slider-custom  box-block-with-down-arrow">
 					<div class="swiper-container swiper-container-initialized swiper-container-horizontal">
 						<div class="swiper-wrapper">
@@ -284,7 +283,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="awards-section paddingTB100">
+		<!-- <section class="awards-section paddingTB100">
 			<div class="container">
 				<h2 class="text-center section-title">Voted Asia’s Best HR Outsourcing &amp; Recruitment Agency</h2>
 				<div
@@ -326,11 +325,11 @@
 					<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<section class="testimonials-section paddingTB100 ">
 			<div class="container">
 				<div>
-					<h2>Testimonials</h2>
+					<h2>Reason For Choosing Us</h2>
 					<div class="testimonial-subtitle">
 						<p>Why Asia’s best in class businesses choose Links</p>
 					</div>
@@ -407,9 +406,9 @@
 		</section>
 		<section class="our-team-section paddingTB100">
 			<div class="container">
-				<h2 class="section-title text-center">Contact Us</h2>
+				<h2 class="section-title text-center">About Us</h2>
 				<div class="team-subtitle text-center">
-					<p>Get in touch with one of us today to start streamlining your HR processes across Asia</p>
+					<p>Know more about us</p>
 				</div>
 				<div class="paddingLR90 swiper-slider-our-team">
 					<div class="swiper-slider-col3 box-block-with-down-arrow">
@@ -425,7 +424,7 @@
 															<div class="img-div img-div1">
 																<img src="../assets/images/blank-img.png" width="243" alt=""></div>
 															<h4>Scott Thomson</h4>
-															<p>Managing Director</p>
+															<p>Recruitment Specialist</p>
 														</div>
 													</div>
 													<div class="flip-card-back">
@@ -434,7 +433,7 @@
 															<div class="img-div img-div1">
 																<img src="../assets/images/blank-img.png" width="172" alt=""></div>
 															<h4>Scott Thomson</h4>
-															<p>Managing Director</p>
+															<p>Recruitment Specialist</p>
 														</div>
 													</div>
 												</div>
@@ -452,7 +451,7 @@
 															<div class="img-div img-div2">
 																<img src="../assets/images/blank-img.png" width="243" alt=""></div>
 															<h4>Keith Wong</h4>
-															<p>Country Director - HK, SH &amp; SG </p>
+															<p>Recruitment Specialist </p>
 														</div>
 													</div>
 													<div class="flip-card-back">
@@ -461,7 +460,7 @@
 															<div class="img-div img-div2">
 																<img src="../assets/images/blank-img.png" width="172" alt=""></div>
 															<h4>Keith Wong</h4>
-															<p>Country Director - HK, SH &amp; SG </p>
+															<p>Recruitment Specialist</p>
 														</div>
 													</div>
 												</div>
@@ -479,8 +478,8 @@
 															<div class="img-div img-div3">
 																<img src="../assets/images/blank-img.png"
 																	width="243" alt=""></div>
-															<h4>Zac Ma</h4>
-															<p>Regional Sales Director - HRO </p>
+															<h4>Jerry Leung</h4>
+															<p>Recruitment Specialist </p>
 														</div>
 													</div>
 													<div class="flip-card-back">
@@ -489,8 +488,8 @@
 															<div class="img-div img-div3">
 																<img src="../assets/images/blank-img.png"
 																	width="172" alt=""></div>
-															<h4>Zac Ma</h4>
-															<p>Regional Sales Director - HRO </p>
+															<h4>Jerry Leung</h4>
+															<p>Recruitment Specialist </p>
 														</div>
 													</div>
 												</div>
@@ -508,8 +507,8 @@
 															<div class="img-div img-div4">
 																<img src="../assets/images/blank-img.png"
 																	width="243" alt=""></div>
-															<h4>Stacy Li</h4>
-															<p>Associate Director - Recruitment</p>
+															<h4>Mandy Wan</h4>
+															<p>Recruitment Specialist</p>
 														</div>
 													</div>
 													<div class="flip-card-back">
@@ -518,8 +517,8 @@
 															<div class="img-div img-div4">
 																<img src="../assets/images/blank-img.png"
 																	width="172" alt=""></div>
-															<h4>Stacy Li</h4>
-															<p>Associate Director - Recruitment</p>
+															<h4>Mandy Wan</h4>
+															<p>Recruitment Specialist</p>
 														</div>
 													</div>
 												</div>

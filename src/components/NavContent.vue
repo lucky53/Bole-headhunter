@@ -29,7 +29,7 @@
                             </li>
                             <li class="menu-item">
                                 <router-link :to="{path:'/CaseStudies'}" @click.native="flushCom" active-class="active">
-                                    Case Studies
+                                    Contact Us
                                 </router-link>
                             </li>
                             <!-- <li class="menu-item">

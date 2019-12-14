@@ -3758,6 +3758,7 @@ body.hr-analytics .detail-div p {
   }
   .workplace .right-textbg h2 {
     margin: 2rem 0 !important;
+    font-size: 2rem;
   }
   body.our-team section .about-team-post .img-div img {
     margin: 0px;
@@ -5590,19 +5591,19 @@ input {
 }
 
 .our-team-section .paddingLR90 .team-block .img-div1 {
-  background-image: url(../images/uploads/Consultants_3168.jpg);
+  background-image: url(../images/uploads/Consultants_3168.png);
 }
 
 .our-team-section .paddingLR90 .team-block .img-div2 {
-  background-image: url(../images/uploads/Consultants_10455.jpg);
+  background-image: url(../images/uploads/Consultants_10455.png);
 }
 
 .our-team-section .paddingLR90 .team-block .img-div3 {
-  background-image: url(../images/uploads/Consultants_4017.jpg);
+  background-image: url(../images/uploads/Consultants_4017.png);
 }
 
 .our-team-section .paddingLR90 .team-block .img-div4 {
-  background-image: url(../images/uploads/Consultants_3948.jpg);
+  background-image: url(../images/uploads/Consultants_3948.png);
 }
 
 .innner-page-banner-section .content-div .short-description h3 {
