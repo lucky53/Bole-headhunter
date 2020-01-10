@@ -22,7 +22,7 @@
                                     <div v-on:click="showTagetext">选择语言<span aria-hidden="true" style="color: rgb(155, 155, 155);">▼</span></div>
                                 </div>
                                 <div class="select-btn" v-show="chatShowtext">
-                                    <a href="index.html" class="select-list"><div style="white-space: nowrap;"><span class="indicator">›</span><span class="text">英语</span></div></a>
+                                    <a href="/index.html" class="select-list"><div style="white-space: nowrap;"><span class="indicator">›</span><span class="text">英语</span></div></a>
                                     <a href="/zhCN/index.html" class="select-list"><div style="white-space: nowrap;"><span class="indicator">›</span><span class="text">中文(繁体)</span></div></a>
                                 </div>
                             </div>
@@ -140,12 +140,12 @@
 }
 .select-list{
     text-decoration: none;
-    width: 110px;
     margin-top: 5px;
     color: #fff;
     display: block;
-    padding: 2px 10px;
+    padding: 3px 21px !important;
     min-width: 90px;
+    text-align: left;
     border: 1px solid #fad18a;
     background: rgba(0,0,0,.8);
     border-radius: 16px;
