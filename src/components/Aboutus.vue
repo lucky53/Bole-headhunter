@@ -18,8 +18,8 @@
             <source  src="../assets/images/video.mp4" type="video/mp4">
           </video>
           <!-- <h2 class="abous-title ">Leading Hong Kong employment agency and  human resources provid</h2>
-          <p>Youcai Bole International has more than 120 teams in the Asia Pacific region, specializing in 100% domestic delivery of human resources services in Asia. Our employment agencies specialize in human resources and management, banking, finance and accounting, sales and marketing, temporary and contract, retail and luxury goods, fast moving consumer goods, real estate and construction, and industrial recruitment. </p>
-          <p>Founded in 1999, Youcai Bole International has offices in Hong Kong, Singapore, Malaysia, Shanghai, Zhuhai, Taiwan, Macau, Indonesia, Vietnam, Thailand, Japan, Korea, New Zealand, Australia, the Philippines and Cambodia. Resource solutions and recruitment strategies. We offer tailored recruitment solutions ranging from retention and temporary recruitment services to executive search. Links HR outsourcing services can help you deal with payroll, visa processing and any other human resource requirements, so you can focus on driving business growth.</p>
+          <p>Pak Lok Elite Headhunting Consultant limited International has more than 120 teams in the Asia Pacific region, specializing in 100% domestic delivery of human resources services in Asia. Our employment agencies specialize in human resources and management, banking, finance and accounting, sales and marketing, temporary and contract, retail and luxury goods, fast moving consumer goods, real estate and construction, and industrial recruitment. </p>
+          <p>Founded in 1999, Pak Lok Elite Headhunting Consultant limited International has offices in Hong Kong, Singapore, Malaysia, Shanghai, Zhuhai, Taiwan, Macau, Indonesia, Vietnam, Thailand, Japan, Korea, New Zealand, Australia, the Philippines and Cambodia. Resource solutions and recruitment strategies. We offer tailored recruitment solutions ranging from retention and temporary recruitment services to executive search. Links HR outsourcing services can help you deal with payroll, visa processing and any other human resource requirements, so you can focus on driving business growth.</p>
           <p>As a trusted recruitment company with 20 years of experience in Asia, we have a deep understanding of the needs of our clients and candidates. We believe that to succeed in today's rapidly changing business environment, we must adopt innovative, reliable HR solutions. Therefore, we strive to stay ahead of any HR and recruitment trends in your industry and your region.</p>
           <p>Interested in knowing how we can help you find the best talent, or do you want to find a job in your dreams? Get in touch for a confidential chat.</p> -->
         </div>
@@ -27,7 +27,7 @@
       <div class="Hr-funcitons">
         <div class="content-div w-100 text-center">
           <h2>Want to outsource your HR functions?</h2>
-          <div class="short-description w-100"><p><u></u>Youcai Bole is the only Asia Pacific HR outsourcing specialist to provide 100% service in the region and offers a wide range of award-winning services.</p></div>
+          <div class="short-description w-100"><p><u></u>Pak Lok Elite is the only Asia Pacific HR outsourcing specialist to provide 100% service in the region and offers a wide range of award-winning services.</p></div>
           <div class="btn-wrapper"><a href="javascript:;" class="btn learn-more">Learn more</a></div>
         </div>
       </div>

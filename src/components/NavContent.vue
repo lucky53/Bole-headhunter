@@ -18,7 +18,13 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <div class="head-lang">
                             <div class="wpml-ls-sidebars-language-sw wpml-ls wpml-ls-legacy-dropdown js-wpml-ls-legacy-dropdown">
-                                <div id="google_translate_element"></div>
+                                <div class="goog-te-gadget-simple">
+                                    <div v-on:click="showTagetext">选择语言<span aria-hidden="true" style="color: rgb(155, 155, 155);">▼</span></div>
+                                </div>
+                                <div class="select-btn" v-show="chatShowtext">
+                                    <a href="index.html" class="select-list"><div style="white-space: nowrap;"><span class="indicator">›</span><span class="text">英语</span></div></a>
+                                    <a href="/zhCN/index.html" class="select-list"><div style="white-space: nowrap;"><span class="indicator">›</span><span class="text">中文(繁体)</span></div></a>
+                                </div>
                             </div>
                         </div>
                         <ul id="main-menu" class="sm sm-blue">
@@ -44,15 +50,15 @@
                             </li>
                         </ul>
                     </div>
+                    
                     <!-- /.navbar-collapse -->
-
                 </div>
                 <!-- /.container-fluid -->
             </nav>
         </header>
         <div class="right-message-div">
 			<div class="inner-div">
-				<div class="dropdown wechat" @click="showToggle" @mouseover="wechatmouseOver" @mouseleave="wechatmouseLeave">
+				<div class="dropdown wechat" v-on:click="showToggle" @mouseover="wechatmouseOver" @mouseleave="wechatmouseLeave">
 					<a class="dropdown-btn" href="javascript:;">
 						<i class="fa"></i>
 					</a>
@@ -75,35 +81,77 @@
     </div>
 </template>
 <script>
-export default {
-    name:"NavContent",
-    data() {
-        return {
-             chatShow: false,
-        }
-    },
-    methods: {
-        flushCom(){
-            this.$router.go(0);
+    export default {
+        name:"NavContent",
+        data() {
+            return {
+                chatShow: false,
+                chatShowtext: false,
+            }
         },
-        // 移入
-        wechatmouseOver() {
-            $('.wechat-img').show();
-        },
-        // 移出
-        wechatmouseLeave() {
-            $('.wechat-img').hide();
-        },
-        showToggle(){
-            this.chatShow = !this.chatShow;
+        methods: {
+            flushCom(){
+                this.$router.go(0);
+            },
+            // 移入
+            wechatmouseOver() {
+                $('.wechat-img').show();
+            },
+            // 移出
+            wechatmouseLeave() {
+                $('.wechat-img').hide();
+            },
+            showToggle(){
+                this.chatShow = !this.chatShow;
+            },
+            showTagetext(){
+                this.chatShowtext = !this.chatShowtext;
+            }
         }
     }
-}
 </script>
 <style lang="css">
 .wechat-img{
     position: absolute;
     left: -140px;
     bottom: 53px;
+}
+.head-lang{
+    position: relative;
+}
+.goog-te-gadget-simple,.select-list {
+    padding: 3px 0px!important;
+    min-width: 110px;
+    max-width: 120px;
+    text-align: center;
+    border: 1px solid #fad18a;
+    background: transparent;
+    border-radius: 16px;
+    cursor: pointer;
+    zoom: 1;
+    font-size: 10pt;
+    color: #fff;
+    display: inline-block;
+}
+.select-btn{
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.select-list{
+    text-decoration: none;
+    width: 110px;
+    margin-top: 5px;
+    color: #fff;
+    display: block;
+    padding: 2px 10px;
+    min-width: 90px;
+    border: 1px solid #fad18a;
+    background: rgba(0,0,0,.8);
+    border-radius: 16px;
+    color: #fff;
+}
+.select-list:hover{
+    color: #fff;
 }
 </style>

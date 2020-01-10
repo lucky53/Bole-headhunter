@@ -271,7 +271,7 @@
 						<div class="col-md-6">
 							<h2>HR Tech Solutions</h2>
 							<h3 class="subtitle">Our HR Platform for All Your Payroll, Leave and Benefit Needs</h3>
-							<p>Youcai is selected as the best salary outsourcing partner in Asia in Hong Kong and Singapore, dedicated to providing the best service and innovation. UCAR is designed to make payroll management in Asia easy and effective, and integrate data with a single platform with domestic support, making it easier for you to report, compare and evaluate company salaries, helping you focus on strategic Value-added human resources activities.</p>
+							<p>Pak Lok Elite is selected as the best salary outsourcing partner in Asia in Hong Kong and Singapore, dedicated to providing the best service and innovation. UCAR is designed to make payroll management in Asia easy and effective, and integrate data with a single platform with domestic support, making it easier for you to report, compare and evaluate company salaries, helping you focus on strategic Value-added human resources activities.</p>
 							<div class="btn-wrapper">
 								<a class="btn btn_block learn-more" href="javascript:;">understand more</a>
 							</div>
@@ -326,7 +326,7 @@
 				</div>
 			</div>
 		</section> -->
-		<section class="testimonials-section paddingTB100 ">
+		<!-- <section class="testimonials-section paddingTB100 ">
 			<div class="container">
 				<div>
 					<h2>Reason For Choosing Us</h2>
@@ -403,7 +403,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<section class="our-team-section paddingTB100">
 			<div class="container">
 				<h2 class="section-title text-center">About Us</h2>
@@ -414,7 +414,7 @@
 					<div class="swiper-slider-col3 box-block-with-down-arrow">
 						<div class="swiper-container">
 							<div class="swiper-wrapper team-counter">
-								<div class="swiper-slide">
+								<!-- <div class="swiper-slide">
 									<a href="javascript:;">
 										<div class="team-block">
 											<div class="flip-card">
@@ -467,7 +467,7 @@
 											</div>
 										</div>
 									</a>
-								</div>
+								</div> -->
 								<div class="swiper-slide" style="width: 330px; margin-right: 30px;">
 									<a href="javascript:;">
 										<div class="team-block">
@@ -484,7 +484,7 @@
 													</div>
 													<div class="flip-card-back">
 														<div>
-															<h3>Singapore</h3>
+															<h3>Hong Kong</h3>
 															<div class="img-div img-div3">
 																<img src="../assets/images/blank-img.png"
 																	width="172" alt=""></div>
@@ -505,18 +505,18 @@
 													<div class="flip-card-front">
 														<div>
 															<div class="img-div img-div4">
-																<img src="../assets/images/blank-img.png"
-																	width="243" alt=""></div>
+																<img src="../assets/images/blank-img.png" width="243" alt="">
+															</div>
 															<h4>Mandy Wan</h4>
 															<p>Recruitment Specialist</p>
 														</div>
 													</div>
 													<div class="flip-card-back">
 														<div>
-															<h3>Shanghai</h3>
+															<h3>Hong Kong</h3>
 															<div class="img-div img-div4">
-																<img src="../assets/images/blank-img.png"
-																	width="172" alt=""></div>
+																<img src="../assets/images/blank-img.png" width="172" alt="">
+															</div>
 															<h4>Mandy Wan</h4>
 															<p>Recruitment Specialist</p>
 														</div>

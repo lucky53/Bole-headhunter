@@ -13,7 +13,7 @@
         <div class="content-div text-center">
           <h1 class="short-description">Contact Us</h1>
           <div class="detail-div short-description">
-            <h3>Get in touch with one of us today to start streamlining you HR processes across Asia</h3>
+            <h3>Contact us to simplify your HR process</h3>
           </div>
         </div>
       </div>
@@ -22,7 +22,7 @@
       <div class="container">
           <div class="page-title text-center">
             <h1>Being the best HR teams in Asia</h1>
-            <p>Pak Lok Elite Headhunting Consultant Limited helps HR teams across Asia to realize their potential and transform their HR functions by streamlining traditional HR processes and providing market-leading HR outsourcing solutions.Learn about our clients' experience in communication and how to overcome their HR challenges.</p>
+            <p>Pak Lok Elite Headhunting Consultant limited helps HR teams across Asia to realize their potential and transform their HR functions by streamlining traditional HR processes and to overcome the challenges of the human resources market and create the greatest benefits..</p>
           </div>
           <!-- <div class="swiper-container Cascading-banner">
               <div class="swiper-wrapper">
@@ -56,7 +56,7 @@
                   <div class="text-content">
                     <span>
                         <i class="text-icon"></i>
-                        Youcai Bole payroll outsourcing service eliminates this manual management, providing more time and a more cost-effective solution. 
+                        Pak Lok Elite Headhunting Consultant limited payroll outsourcing service eliminates this manual management, providing more time and a more cost-effective solution. 
                         <i class="text-icon right"></i>
                     </span>
                   </div>
@@ -71,7 +71,7 @@
             <div class="left-images"></div>
             <div class="right-textbg">
               <h2 class="text-center">Pak Lok Elite Headhunting Consultant Limited</h2>
-              <p class="">Pak Lok Elite Headhunting Consultant Limited is a leading recruitment. We also provide payroll outsourcing service and supports 15 countries in the Asia Pacific region. If you would like to develop a team in Asia or are interested in exploring the idea of payroll outsourcing and recruitment, please feel free to contact us.</p>
+              <p class="">Pak Lok Elite Headhunting Consultant Limited is a Excellent recruitment company. We also provide payroll outsourcing service. If you want to develop a team in Asia, or are interested in exploring the idea of wage outsourcing and Talent recruitment, please feel free to contact us.</p>
             </div>
           </div>
       </div>
