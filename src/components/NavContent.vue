@@ -58,23 +58,23 @@
         </header>
         <div class="right-message-div">
 			<div class="inner-div">
-				<div class="dropdown wechat" v-on:click="showToggle" @mouseover="wechatmouseOver" @mouseleave="wechatmouseLeave">
+				<div class="dropdown wechat">
 					<a class="dropdown-btn" href="javascript:;">
 						<i class="fa"></i>
 					</a>
 				</div>
 				<div class="dropdown telegram">
-					<a class="dropdown-btn" href="https://dailytelegram.org/" target="_blank">
+					<a class="dropdown-btn"  target="_blank" v-on:click="seturl('https://web.telegram.org/');">
 						<i class="fa"></i>
 					</a>
 				</div>
-				<div class="dropdown qq_icon">
-					<a class="dropdown-btn" href="tencent://Message/?Uin=2222122687&amp;websiteName=q-zone.qq.com&amp;Menu=yes" target="_blank">
+				<div class="dropdown qq_icon" v-on:click="showToggle" @mouseover="wechatmouseOver" @mouseleave="wechatmouseLeave">
+					<a class="dropdown-btn" href="javascript:;">
 						<i class="fa"></i>
 					</a>
 				</div>
                 <div class="wechat-img" style="display:none;" v-show="chatShow">
-                    <!-- <img src="../assets/images/wechat-img.png"> -->
+                    <img src="../assets/images/wechat-img.png">
                 </div>
 			</div>
 		</div>
@@ -103,9 +103,13 @@
             },
             showToggle(){
                 this.chatShow = !this.chatShow;
+                location.href = 'tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1933263719&website=www.oicqzone.com';
             },
             showTagetext(){
                 this.chatShowtext = !this.chatShowtext;
+            },
+            seturl(){
+                location.href = 'https://web.telegram.org/' + '#/im?p=@Mandy2020';
             }
         }
     }
@@ -115,6 +119,9 @@
     position: absolute;
     left: -140px;
     bottom: 53px;
+}
+#main-menu{
+    z-index: 0;
 }
 .head-lang{
     position: relative;

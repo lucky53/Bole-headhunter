@@ -65,7 +65,7 @@
                       <div class="menu-footer-menu-4-container">
                         <ul id="menu-footer-menu-4" class="menu">
                           <li id="menu-item-1998" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1998">
-                            <a target="_blank" rel="noopener noreferrer" href="javasceipt:;">Jlogs</a>
+                            <a rel="noopener noreferrer" href="javasceipt:;">Jlogs</a>
                           </li>
                           <li id="menu-item-2950" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1998">
                             <a rel="noopener noreferrer" href="javasceipt:;">HR Portal</a>
@@ -84,7 +84,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <div class="left-copy">Pak Lok Elite Copyright @ 2019 All Rights Reserved</div>
+              <div class="left-copy">Pak Lok Elite Copyright @ 2020 All Rights Reserved</div>
+              <div  class="left-copy">License number 61260</div>
             </div>
             <div class="col-md-6">
               <div class="social-icon">

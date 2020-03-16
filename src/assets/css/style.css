@@ -5363,6 +5363,16 @@ body.hr-analytics .detail-div p {
     max-width: 100px;
     padding: 15px 5px;
   }
+  .right-message-div .inner-div {
+    width: 120%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+
+  .right-message-div .inner-div {
+    width: 112%;
+  }
 }
 * {
   padding: 0;
