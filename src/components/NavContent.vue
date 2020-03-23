@@ -73,6 +73,11 @@
 						<i class="fa"></i>
 					</a>
 				</div>
+                <div class="dropdown in_icon">
+					<a class="dropdown-btn" href="https://www.linkedin.com/company/paklokelite" target="_blank">
+						<i class="fa"></i>
+					</a>
+				</div>
                 <div class="wechat-img" style="display:none;" v-show="chatShow">
                     <img src="../assets/images/wechat-img.png">
                 </div>

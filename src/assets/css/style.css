@@ -4874,7 +4874,7 @@ body.hr-analytics .detail-div p {
     margin-bottom: 40px;
   }
   .right-message-div {
-    width: 11.5rem;
+    width: 12.5rem;
     height: 33px;
     z-index: 9999;
     right: 60px;
@@ -5060,8 +5060,8 @@ body.hr-analytics .detail-div p {
     font-size: 23px;
   }
   .right-message-div .dropdown-btn {
-    width: 40px;
-    height: 33px;
+    width: 32px;
+    height: 30px;
     font-size: 20px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -5584,7 +5584,15 @@ input {
 .right-message-div .telegram .dropdown-btn i {
   background: url(../images/telegram.png) no-repeat center;
 }
-
+.right-message-div .in_icon .dropdown-btn:after {
+  background-image: url(../images/right-icon-in.png);
+}
+.in_icon .dropdown-btn {
+  background: rgb(0, 119, 180);
+}
+.in_icon .dropdown-btn   i {
+    background: url(../images/in_icon.png)no-repeat center;
+}
 .right-message-div .qq_icon .dropdown-btn {
   background: #303339;
 }
